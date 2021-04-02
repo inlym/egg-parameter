@@ -1,0 +1,31 @@
+{
+	"name": "egg-parameter",
+	"version": "0.1.0",
+	"description": "Better Validate Plugin For Egg",
+	"eggPlugin": {
+		"name": "validate"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"parameter",
+		"egg",
+		"eggPlugin",
+		"egg-plugin",
+		"validate"
+	],
+	"dependencies": {
+		"only": "^0.0.2",
+		"parameter": "^3.6.0"
+	},
+	"author": "inlym",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/inlym/egg-parameter.git"
+	},
+	"bugs": "https://github.com/inlym/egg-parameter/issues",
+	"homepage": "https://github.com/inlym/egg-parameter#readme",
+	"license": "MIT"
+}
