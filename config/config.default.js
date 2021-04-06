@@ -8,7 +8,7 @@ exports.validate = {
 	statusCode: 422,
 
 	/** 参数错误时，返回的 HTTP 状态消息 */
-	statusMessage: 'Validation Failed',
+	message: 'Validation Failed',
 
 	/**
 	 * 参数错误时，返回的错误信息模式：

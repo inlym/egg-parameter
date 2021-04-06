@@ -17,8 +17,8 @@ $ npm i egg-parameter
 ```js
 // config/plugin.js
 exports.validate = {
-	enable: true,
-	package: 'egg-parameter',
+  enable: true,
+  package: 'egg-parameter',
 }
 ```
 
@@ -29,9 +29,9 @@ exports.validate = {
 ```js
 // 定义校验规则
 const rule = {
-	name: 'string',
-	age: 'int',
-	gender: ['male', 'female', 'unknow'],
+  name: 'string',
+  age: 'int',
+  gender: ['male', 'female', 'unknow'],
 }
 
 // 在控制器中校验
